@@ -1,0 +1,308 @@
+.Alldiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttonHeader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.darkMode{
+    width: 30%;
+}
+.btnAdd{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(93, 93, 255);
+    cursor: pointer;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .dark-mode {
+    background-color: rgba(0, 0, 0, 0.941);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    .selectOne{
+        color: white;
+        background-color: rgb(58, 58, 58);
+    }
+    .selectTwo{
+        color: white;
+        background-color: rgb(58, 58, 58);
+    }
+    .searchOne{
+        color: white;
+        background-color: rgb(58, 58, 58);
+    }
+    .searchOne::placeholder{
+        color: white;
+    }
+    .modal-content{
+        background-color: black;
+        box-shadow: 0px 0px 10px 0px white;
+    }
+    .h2Modal{
+        color: white;
+    }
+    .h1{
+        color: white;
+    }
+    .table{
+        box-shadow: 0px 0px 10px 0px white;
+    }
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-buttons {
+    margin-top: 10px;
+}
+
+.modal-buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.allDivLoog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.selectDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+}
+.selectOne{
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-left: 285px;
+    margin-top: 50px;
+}
+.selectTwo{
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.searchOne{
+    width: 250px;
+    height: 33px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 40px;
+    padding: 5px;
+    border: 1px solid black;
+    color: white;
+    margin-left: 240px;
+}
+.searchOne::placeholder{
+    color: black;
+}
+.h2Modal{
+    color: black;
+    font-family: sans-serif;
+}
+.HEADER{
+    display: flex;
+    align-items: center;
+}
+.AllHeder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+}
+.h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.tr, th, td{
+    padding: 20px 67px 20px 67px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.table{
+    border-collapse: collapse;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-left: 285px;
+    margin-top: 30px;
+}
+.searchOne::placeholder{
+    color: black;
+}
+.light-mode .searchOne {
+    color: black;
+}
+.btnEdit{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: rgb(82, 82, 255);
+    cursor: pointer;
+}
+.btnDelete{
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: rgb(255, 38, 38);
+    cursor: pointer;
+}
+.btnCheck{
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: gold;
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .modal input,
+  .modal select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .modal button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .modal button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  .modal button + button {
+    margin-top: 10px;
+  }
+  
+  .dark .modal form {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark .modal input,
+  .dark .modal select {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #777;
+  }
+  
+  .dark .modal button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .dark .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark .modal button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .dark .modal button:last-child:hover {
+    background-color: #c82333;
+  }
